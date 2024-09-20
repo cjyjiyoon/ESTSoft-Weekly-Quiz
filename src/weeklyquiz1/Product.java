@@ -1,3 +1,5 @@
+package weeklyquiz1;
+
 import java.math.BigDecimal;
 
 public class Product implements Promotion{
@@ -10,7 +12,7 @@ public class Product implements Promotion{
         return 0;
     }
 
-    @Override
+//    @Override
     public int getDiscountAmount(int weight) {
         return 0;
     }
